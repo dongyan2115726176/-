@@ -1,0 +1,266 @@
+.swiper {
+  background: #fff;
+}
+
+.content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.content .search {
+  width: 100%;
+  height: 90px;
+  margin-top: 1rem;
+  position: fixed;
+  top: 0;
+  z-index: 200;
+}
+
+.content .search input {
+  width: 65%;
+  height: 2rem;
+  float: left;
+  margin-left: 1rem;
+  outline: none;
+  padding-left: 1rem;
+  border-radius: 10px;
+  color: #F6F6F7;
+  background: #CFCFCF;
+  opacity: 0.8;
+  border: none;
+}
+
+.content .search span {
+  width: 25%;
+  float: left;
+  text-align: center;
+  color: #846441;
+}
+
+.swiper-container {
+  width: 100%;
+  border-radius: 0 0 55px 69px;
+}
+
+.swiper-container img {
+  width: 100%;
+}
+
+.nav {
+  width: 100%;
+  /* padding-left: 37px; */
+  /* margin-top: 1rem; */
+  /* border-radius: 100px 0; */
+  background: #fff;
+  height: 6rem;
+  padding-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.nav div {
+  width: 20%;
+  height: 100px;
+  float: left;
+  margin-right: 12px;
+  border-radius: 50%;
+}
+
+.nav div:nth-child(1) {
+  margin-left: 27px;
+}
+
+.nav div:nth-child(1) span {
+  background: #E5F6FF;
+  border-radius: 50%;
+  width: 58px;
+  display: block;
+  height: 58px;
+  text-align: center;
+  line-height: 50px;
+  color: #72CEFE;
+}
+
+.nav div:nth-child(2) span {
+  background: #FBE9FF;
+  border-radius: 50%;
+  width: 58px;
+  display: block;
+  height: 58px;
+  text-align: center;
+  line-height: 50px;
+  color: #EA89FF;
+}
+
+.nav div:nth-child(3) span {
+  background: #FFEDEA;
+  border-radius: 50%;
+  width: 58px;
+  display: block;
+  height: 58px;
+  text-align: center;
+  line-height: 50px;
+  color: #FE9E8F;
+}
+
+.nav div:nth-child(4) span {
+  background: #FFF6E7;
+  border-radius: 50%;
+  width: 58px;
+  display: block;
+  height: 58px;
+  text-align: center;
+  line-height: 50px;
+  color: #FECE7B;
+}
+
+.nav_content {
+  width: 100%;
+  background: #fff;
+  height: auto;
+}
+
+.nav_content .nav_content_top {
+  margin-left: 1rem;
+}
+
+.nav_content .nav_content_top p:nth-child(1) {
+  float: left;
+  width: 74%;
+  line-height: 3rem;
+  font-weight: bold;
+}
+
+.nav_content .nav_content_top p:nth-child(1) span {
+  color: #FFA200;
+  font-size: 16px;
+}
+
+.nav_content .nav_content_top p:nth-child(2) {
+  float: right;
+  color: #A5A5A5;
+  line-height: 3rem;
+  width: 20%;
+}
+
+.nav_content_bottom {
+  width: 100%;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.nav_content_bottom1 img {
+  width: 94%;
+  margin-left: 0.6rem;
+  height: 11rem;
+}
+
+.miaoshu {
+  width: 100%;
+  height: 116px;
+}
+
+.miaoshu p {
+  line-height: 4rem;
+  /* text-align: left; */
+  font-size: 20px;
+  padding-left: 1rem;
+}
+
+.show {
+  width: 100%;
+  line-height: 2rem;
+  padding-left: 1rem;
+}
+
+.show .kan {
+  font-size: 16px;
+  float: left;
+  display: block;
+  width: 69%;
+}
+
+.show .time {
+  float: left;
+}
+
+.nav_content_bottom1 {
+  /* margin-bottom: 4rem; */
+}
+
+.styles {
+  width: 100%;
+  height: 30rem;
+  background: #fff;
+}
+
+.styles .nav_content_top {
+  margin-left: 1rem;
+  height: 3rem;
+}
+
+.styles .nav_content_top p:nth-child(1) {
+  float: left;
+  width: 74%;
+  line-height: 3rem;
+  font-weight: bold;
+}
+
+.styles .nav_content_top p:nth-child(1) span {
+  color: #FFA200;
+  font-size: 16px;
+}
+
+.styles div.xoxo {
+  width: 43%;
+  /* height: 100px; */
+  float: left;
+  padding-left: 17px;
+  /* margin-bottom: 1rem; */
+  margin-top: 1rem;
+  position: relative;
+}
+
+.styles div.xoxo img {
+  width: 100%;
+  height: 100px;
+  float: left;
+}
+
+.styles div.xoxo span {
+  width: 47px;
+  height: 40px;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  left: 44%;
+  text-align: center;
+  line-height: 17px;
+  padding-top: 9px;
+  font-size: 16px;
+  top: 20%;
+  color: #fff;
+}
+
+.styles div.xoxo:nth-child(2) span {
+  background: gray !important;
+}
+
+.styles div.xoxo:nth-child(3) span {
+  background: rgba(233, 125, 24, 0.418) !important;
+}
+
+.styles div.xoxo:nth-child(4) span {
+  background: rgba(235, 81, 10, 0.938) !important;
+}
+
+.styles div.xoxo:nth-child(5) span {
+  background: rgba(180, 25, 211, 0.678) !important;
+}
+
+.styles div.xoxo:nth-child(6) span {
+  background: rgba(40, 202, 140, 0.37) !important;
+}
+
+.styles div.xoxo:nth-child(7) span {
+  background: rgba(58, 28, 192, 0.582) !important;
+}

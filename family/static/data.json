@@ -1,0 +1,258 @@
+{
+    "goods":[
+        {
+            "goodUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540425656&di=d3df219ac347237276e4f90454b54d49&src=http://pic.58pic.com/58pic/12/31/96/58PIC7p58PICM9D.jpg",
+            "descript":"买房的8大禁忌！你中招了吗？",
+            "numbel":"2572",
+            "createTime":"2016-07-22"
+        },
+        {
+          "goodUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540427660&di=10707cd0e5a86439c5829b33eadd9652&src=http://img.redocn.com/sheying/20151021/xiandaiweishengjiansheying_5138133.jpg",
+          "descript": "有了这办法，你我再也不用愁新房...",
+          "numbel": "646",
+          "createTime": "2016-07-22"
+        },
+        {
+          "goodUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540427660&di=f7df96d862e20704088e80066b2bbc26&src=http://pic.qiantucdn.com/58pic/18/02/54/55c236d38ab65_1024.jpg",
+          "descript": "什么是保障房 保障房申请条件",
+          "numbel": "500",
+          "createTime": "2016-07-22"
+        }
+    ],
+    "showList": [{
+        "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540425656&di=c60de7460bf04e39173e56f0b5a75288&src=http://pic72.nipic.com/file/20150717/21405441_144727269000_2.jpg",
+        "descript": "日式布艺沙发组合",
+        "price": "0.01",
+        "ping": "已售出712/0人评论",
+        "id":"12212",
+        "imgs":[
+            {
+                "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540453963&di=0856eec4bdc7bfe20eee4e2d95d75913&src=http://pic19.nipic.com/20120224/9387253_175505405000_2.jpg"
+            },{
+                "imgurl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3018961414,3450377844&fm=27&gp=0.jpg"
+            },{
+                "imgurl": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4006600222,340389640&fm=27&gp=0.jpg"
+            },
+            {
+                "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540454027&di=bb6dd768b2b83f1f07e0db159e88aef8&src=http://pic18.nipic.com/20111216/9063183_145757664199_2.jpg"
+            }
+        ],
+        "xiangqing": [{
+          "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540453963&di=0856eec4bdc7bfe20eee4e2d95d75913&src=http://pic19.nipic.com/20120224/9387253_175505405000_2.jpg"
+        }, {
+          "imgurl": "https://img.alicdn.com/imgextra/i4/685563493/O1CN011bfpuu2KQihZEOo_!!685563493.jpg"
+        }, {
+          "imgurl": "https://img.alicdn.com/imgextra/i2/685563493/O1CN011bfpv258qo3ENn2_!!685563493.jpg"
+        }, {
+          "imgurl": "https://img.alicdn.com/imgextra/i4/685563493/O1CN011bfpv1HiQ6HnrCg_!!685563493.jpg"
+        }, {
+          "imgurl": "https://img.alicdn.com/imgextra/i2/685563493/O1CN011bfpuvQbtIMBJZi_!!685563493.jpg"
+        }, {
+          "imgurl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3018961414,3450377844&fm=27&gp=0.jpg"
+        }, {
+          "imgurl": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4006600222,340389640&fm=27&gp=0.jpg"
+        }, {
+          "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540454027&di=bb6dd768b2b83f1f07e0db159e88aef8&src=http://pic18.nipic.com/20111216/9063183_145757664199_2.jpg"
+        }, {
+          "imgurl": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4006600222,340389640&fm=27&gp=0.jpg"
+        }, {
+          "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540454027&di=bb6dd768b2b83f1f07e0db159e88aef8&src=http://pic18.nipic.com/20111216/9063183_145757664199_2.jpg"
+        }]
+      },
+      {
+        "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540425656&di=2cb58047cff3a659ebbadbc9c85d5a51&src=http://pic31.nipic.com/20130710/13213082_135745580177_2.jpg",
+        "descript": "应用公园付款",
+        "price": "3500.00",
+        "ping": "已售出32/0人评论",
+        "id":"54545",
+        "imgs": [{
+            "imgurl": "http://p2.so.qhmsg.com/bdr/_240_/t01149eadddc9b71197.jpg"
+          }, {
+            "imgurl": "http://p4.so.qhmsg.com/bdr/_240_/t018091557d7b74c189.jpg"
+          }, {
+            "imgurl": "http://p0.so.qhimgs1.com/bdr/_240_/t0150d32aa309a7ca3a.jpg"
+          },
+          {
+            "imgurl": "http://p1.so.qhimgs1.com/bdr/_240_/t0173c7817e1fa9e311.jpg"
+          }
+        ],
+        "xiangqing": [{
+          "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540453963&di=0856eec4bdc7bfe20eee4e2d95d75913&src=http://pic19.nipic.com/20120224/9387253_175505405000_2.jpg"
+        }, {
+          "imgurl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3018961414,3450377844&fm=27&gp=0.jpg"
+        }, {
+          "imgurl": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4006600222,340389640&fm=27&gp=0.jpg"
+        }, {
+          "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540454027&di=bb6dd768b2b83f1f07e0db159e88aef8&src=http://pic18.nipic.com/20111216/9063183_145757664199_2.jpg"
+        }, {
+          "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540453963&di=0856eec4bdc7bfe20eee4e2d95d75913&src=http://pic19.nipic.com/20120224/9387253_175505405000_2.jpg"
+        }, {
+          "imgurl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3018961414,3450377844&fm=27&gp=0.jpg"
+        }, {
+          "imgurl": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4006600222,340389640&fm=27&gp=0.jpg"
+        }, {
+          "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540454027&di=bb6dd768b2b83f1f07e0db159e88aef8&src=http://pic18.nipic.com/20111216/9063183_145757664199_2.jpg"
+        }, {
+          "imgurl": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4006600222,340389640&fm=27&gp=0.jpg"
+        }, {
+          "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540454027&di=bb6dd768b2b83f1f07e0db159e88aef8&src=http://pic18.nipic.com/20111216/9063183_145757664199_2.jpg"
+        }]
+      },
+      {
+        "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540425656&di=5f817d47e10526169d7b1599459763ee&src=http://pic41.nipic.com/20140515/15265552_031342028365_2.jpg",
+        "descript": "现代简约日式实木餐边柜",
+        "price": "37800.00",
+        "ping": "已售出9/0人评论",
+        "id":"22222",
+        "imgs": [{
+            "imgurl": "http://p0.so.qhmsg.com/bdr/_240_/t01a8103f3bd72f684f.jpg"
+          }, {
+            "imgurl": "http://p1.so.qhimgs1.com/bdr/_240_/t01fbd0f06a0bb2e781.jpg"
+          }, {
+            "imgurl": "http://p2.so.qhmsg.com/bdr/_240_/t01f5d608734d0862b7.jpg"
+          },
+          {
+            "imgurl": "http://p0.so.qhmsg.com/bdr/_240_/t01fa340eec681ba055.jpg"
+          }
+        ],
+        "xiangqing":[
+          {
+            "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540453963&di=0856eec4bdc7bfe20eee4e2d95d75913&src=http://pic19.nipic.com/20120224/9387253_175505405000_2.jpg"
+          }, {
+            "imgurl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3018961414,3450377844&fm=27&gp=0.jpg"
+          }, {
+            "imgurl": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4006600222,340389640&fm=27&gp=0.jpg"
+          }, {
+            "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540454027&di=bb6dd768b2b83f1f07e0db159e88aef8&src=http://pic18.nipic.com/20111216/9063183_145757664199_2.jpg"
+          }, {
+            "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540453963&di=0856eec4bdc7bfe20eee4e2d95d75913&src=http://pic19.nipic.com/20120224/9387253_175505405000_2.jpg"
+          }, {
+            "imgurl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3018961414,3450377844&fm=27&gp=0.jpg"
+          }, {
+            "imgurl": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4006600222,340389640&fm=27&gp=0.jpg"
+          }, {
+            "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540454027&di=bb6dd768b2b83f1f07e0db159e88aef8&src=http://pic18.nipic.com/20111216/9063183_145757664199_2.jpg"
+          }, {
+            "imgurl": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4006600222,340389640&fm=27&gp=0.jpg"
+          }, {
+            "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540454027&di=bb6dd768b2b83f1f07e0db159e88aef8&src=http://pic18.nipic.com/20111216/9063183_145757664199_2.jpg"
+          }
+        ]
+      }, {
+        "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540427117&di=caf82d6718146f3379de499887c3fa23&src=http://pic.58pic.com/58pic/14/74/26/50b58PICfZ2_1024.jpg",
+        "descript": "北欧宜家圆茶几现代简约边桌",
+        "price": "3800.00",
+        "ping": "已售出19/0人评论",
+        "id":"45454",
+        "imgs": [{
+            "imgurl": "http://p5.so.qhimgs1.com/bdr/_240_/t016d95bde2b3897b7b.jpg"
+          }, {
+            "imgurl": "http://p0.so.qhimgs1.com/bdr/_240_/t01a08c9dcb4fbc310c.jpg"
+          }, {
+            "imgurl": "http://p0.so.qhimgs1.com/bdr/_240_/t011203251bf9eaf260.jpg"
+          },
+          {
+            "imgurl": "http://p0.so.qhimgs1.com/bdr/_240_/t018c06c436862a0e14.jpg"
+          }
+        ],
+        "xiangqing": [{
+          "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540453963&di=0856eec4bdc7bfe20eee4e2d95d75913&src=http://pic19.nipic.com/20120224/9387253_175505405000_2.jpg"
+        }, {
+          "imgurl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3018961414,3450377844&fm=27&gp=0.jpg"
+        }, {
+          "imgurl": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4006600222,340389640&fm=27&gp=0.jpg"
+        }, {
+          "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540454027&di=bb6dd768b2b83f1f07e0db159e88aef8&src=http://pic18.nipic.com/20111216/9063183_145757664199_2.jpg"
+        }, {
+          "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540453963&di=0856eec4bdc7bfe20eee4e2d95d75913&src=http://pic19.nipic.com/20120224/9387253_175505405000_2.jpg"
+        }, {
+          "imgurl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3018961414,3450377844&fm=27&gp=0.jpg"
+        }, {
+          "imgurl": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4006600222,340389640&fm=27&gp=0.jpg"
+        }, {
+          "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540454027&di=bb6dd768b2b83f1f07e0db159e88aef8&src=http://pic18.nipic.com/20111216/9063183_145757664199_2.jpg"
+        }, {
+          "imgurl": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4006600222,340389640&fm=27&gp=0.jpg"
+        }, {
+          "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540454027&di=bb6dd768b2b83f1f07e0db159e88aef8&src=http://pic18.nipic.com/20111216/9063183_145757664199_2.jpg"
+        }]
+      }, {
+        "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540427117&di=602742c7910b6b33b78cf87e18313731&src=http://pic8.nipic.com/20100727/2102727_155917007594_2.jpg",
+        "descript": "伊姆斯贴现以",
+        "price": "9800.00",
+        "ping": "已售出33/0人评论",
+        "id":"55555",
+        "imgs": [{
+            "imgurl": "http://p2.so.qhmsg.com/bdr/_240_/t012211428c5dcc0a17.jpg"
+          }, {
+            "imgurl": "http://p0.so.qhmsg.com/bdr/_240_/t018ed5e7e2a4b16e5f.jpg"
+          }, {
+            "imgurl": "http://p0.so.qhimgs1.com/bdr/_240_/t0112f6375b8c2a30e4.jpg"
+          },
+          {
+            "imgurl": "http://p0.so.qhimgs1.com/bdr/_240_/t01c38d518c584b2874.jpg"
+          }
+        ],
+        "xiangqing": [{
+          "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540453963&di=0856eec4bdc7bfe20eee4e2d95d75913&src=http://pic19.nipic.com/20120224/9387253_175505405000_2.jpg"
+        }, {
+          "imgurl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3018961414,3450377844&fm=27&gp=0.jpg"
+        }, {
+          "imgurl": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4006600222,340389640&fm=27&gp=0.jpg"
+        }, {
+          "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540454027&di=bb6dd768b2b83f1f07e0db159e88aef8&src=http://pic18.nipic.com/20111216/9063183_145757664199_2.jpg"
+        }, {
+          "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540453963&di=0856eec4bdc7bfe20eee4e2d95d75913&src=http://pic19.nipic.com/20120224/9387253_175505405000_2.jpg"
+        }, {
+          "imgurl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3018961414,3450377844&fm=27&gp=0.jpg"
+        }, {
+          "imgurl": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4006600222,340389640&fm=27&gp=0.jpg"
+        }, {
+          "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540454027&di=bb6dd768b2b83f1f07e0db159e88aef8&src=http://pic18.nipic.com/20111216/9063183_145757664199_2.jpg"
+        }, {
+          "imgurl": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4006600222,340389640&fm=27&gp=0.jpg"
+        }, {
+          "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540454027&di=bb6dd768b2b83f1f07e0db159e88aef8&src=http://pic18.nipic.com/20111216/9063183_145757664199_2.jpg"
+        }]
+      }, {
+        "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540427117&di=602742c7910b6b33b78cf87e18313731&src=http://pic8.nipic.com/20100727/2102727_155917007594_2.jpg",
+        "descript": "DIRT钻石镂空线条椅",
+        "price": "5000.00",
+        "ping": "已售出14/0人评论",
+        "id":"788788",
+        "imgs": [
+            {
+            "imgurl": "http://p2.so.qhimgs1.com/bdr/_240_/t01d59f5be7729cfdde.jpg"
+          }, {
+            "imgurl": "http://p1.so.qhimgs1.com/bdr/_240_/t015be7d20d28f0ba9d.jpg"
+          }, {
+            "imgurl": "http://p2.so.qhmsg.com/bdr/_240_/t01dc1db2c5e0c28427.jpg"
+          },
+          {
+            "imgurl": "http://p3.so.qhmsg.com/bdr/_240_/t01f4a806f0cd976458.jpg"
+          }
+        ],
+        "xiangqing": [{
+          "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540453963&di=0856eec4bdc7bfe20eee4e2d95d75913&src=http://pic19.nipic.com/20120224/9387253_175505405000_2.jpg"
+        }, {
+          "imgurl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3018961414,3450377844&fm=27&gp=0.jpg"
+        }, {
+          "imgurl": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4006600222,340389640&fm=27&gp=0.jpg"
+        }, {
+          "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540454027&di=bb6dd768b2b83f1f07e0db159e88aef8&src=http://pic18.nipic.com/20111216/9063183_145757664199_2.jpg"
+        }, {
+          "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540453963&di=0856eec4bdc7bfe20eee4e2d95d75913&src=http://pic19.nipic.com/20120224/9387253_175505405000_2.jpg"
+        }, {
+          "imgurl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3018961414,3450377844&fm=27&gp=0.jpg"
+        }, {
+          "imgurl": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4006600222,340389640&fm=27&gp=0.jpg"
+        }, {
+          "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540454027&di=bb6dd768b2b83f1f07e0db159e88aef8&src=http://pic18.nipic.com/20111216/9063183_145757664199_2.jpg"
+        }, {
+          "imgurl": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4006600222,340389640&fm=27&gp=0.jpg"
+        }, {
+          "imgurl": "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1540454027&di=bb6dd768b2b83f1f07e0db159e88aef8&src=http://pic18.nipic.com/20111216/9063183_145757664199_2.jpg"
+        }]
+      }
+    ]
+}

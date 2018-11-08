@@ -1,0 +1,37 @@
+.content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.content .search {
+  width: 100%;
+  height: 3rem;
+  /* margin-top: 1rem; */
+  position: fixed;
+  top: 0;
+  z-index: 200;
+  background: rgba(243, 239, 3, 0.952);
+}
+
+.content .search p:nth-child(1) {
+  width: 100%;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1.22rem;
+  font-weight: bold;
+}
+
+.content .search p:nth-child(2) {
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: -46px;
+  right: 24px;
+}
+
+.content .search span {
+  width: 25%;
+  float: left;
+  text-align: center;
+  color: #846441;
+}

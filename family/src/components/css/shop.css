@@ -1,0 +1,204 @@
+.swiper {
+  background: #fff;
+}
+
+.content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.content .search {
+  width: 100%;
+  height: 3rem;
+  /* margin-top: 1rem; */
+  position: fixed;
+  top: 0;
+  z-index: 200;
+  background: rgba(243, 239, 3, 0.952);
+}
+
+.content .search p:nth-child(1) {
+  width: 100%;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1.22rem;
+  font-weight: bold;
+}
+
+.content .search p:nth-child(2) {
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: -46px;
+  right: 24px;
+}
+
+.content .search span {
+  width: 25%;
+  float: left;
+  text-align: center;
+  color: #846441;
+}
+
+.swiper-container {
+  width: 100%;
+  /* border-radius: 0 0 55px 69px; */
+}
+
+.swiper-container img {
+  width: 100%;
+}
+
+.nav {
+  width: 100%;
+  /* padding-left: 37px; */
+  /* margin-top: 1rem; */
+  /* border-radius: 100px 0; */
+  background: #fff;
+  height: 6rem;
+  padding-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.nav div {
+  width: 20%;
+  height: 100px;
+  float: left;
+  margin-right: 12px;
+  border-radius: 50%;
+}
+
+.nav div:nth-child(1) {
+  margin-left: 27px;
+}
+
+.nav div:nth-child(1) span {
+  background: #E5F6FF;
+  border-radius: 50%;
+  width: 58px;
+  display: block;
+  height: 58px;
+  text-align: center;
+  line-height: 50px;
+  color: #72CEFE;
+}
+
+.nav div:nth-child(2) span {
+  background: #FBE9FF;
+  border-radius: 50%;
+  width: 58px;
+  display: block;
+  height: 58px;
+  text-align: center;
+  line-height: 50px;
+  color: #EA89FF;
+}
+
+.nav div:nth-child(3) span {
+  background: #FFEDEA;
+  border-radius: 50%;
+  width: 58px;
+  display: block;
+  height: 58px;
+  text-align: center;
+  line-height: 50px;
+  color: #FE9E8F;
+}
+
+.nav div:nth-child(4) span {
+  background: #FFF6E7;
+  border-radius: 50%;
+  width: 58px;
+  display: block;
+  height: 58px;
+  text-align: center;
+  line-height: 50px;
+  color: #FECE7B;
+}
+
+.nav_content {
+  width: 100%;
+  background: #fff;
+  height: 51rem;
+}
+
+.nav_content .nav_content_top {
+  border-bottom: 1px solid #ddd;
+  height: 3rem;
+  margin-bottom: 1rem;
+}
+
+.nav_content .nav_content_top p:nth-child(1) {
+  float: left;
+  width: 20%;
+  text-align: center;
+  line-height: 2rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  background: rgba(248, 248, 6, 0.308);
+}
+
+.nav_content_bottom {
+  width: 100%;
+  position: relative;
+}
+
+.newGood {
+  width: 40%;
+  float: left;
+  margin-left: 1.5rem;
+
+}
+
+.newGood img {
+  width: 100%;
+}
+
+.newGood .zuhe {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  height: 2rem;
+  /* line-height: 2rem; */
+  margin-top: 1rem;
+}
+
+.priceBox {
+  width: 73%;
+  margin: 0 auto;
+  text-align: center;
+  height: 2rem;
+  margin-top: 1rem;
+}
+
+.priceBox span {
+  color: red;
+  float: left;
+}
+
+.priceBox span em {
+  font-style: normal;
+}
+
+.priceBox a {
+  float: left;
+  text-decoration: line-through;
+  display: block;
+  margin-left: 0.5rem;
+  color: lightslategray;
+}
+
+.shouchu {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0.4rem;
+}
+
+.shouchu p {
+  height: 1rem;
+  margin-left: -1rem;
+  color: lightslategray;
+  /* line-height: 5rem; */
+}

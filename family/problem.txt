@@ -1,0 +1,284 @@
+﻿多余内容用...代替
+
+vue.js 底部导航栏 一级路由显示 子路由不显示：
+https://blog.csdn.net/sinat_29412671/article/details/73556773
+
+详情页跳转：
+给需要跳转的元素加<router-link :to="{name:'detail',params:{id:item.id}}"></router-link>name:要跳转的vue params参数传值（id）
+
+在detail页面：created（）{this.$http.get('数据路径').then(data=>{
+	var id = self.$route.params.id;
+	var obj = data.body.data
+	obj.filter(function (item) {
+        if (item.id==id) {console.log(item)}
+})}
+(获取数组中的数组数据)self.items = self.items[0]
+
+swiper插件：
+js:
+import Swiper from 'swiper'
+import 'swiper/dist/css/swiper.min.css'
+mounted(){
+        setTimeout(() => {
+            var mySwiper = new Swiper('.del', {
+               
+               pagination: {
+                    el: '.swiper-pagination',
+                },
+                paginationClickable: true,
+                loop: true,
+                speed: 600,
+                autoplay: true,
+                onTouchEnd: function() {
+                    swiper.startAutoplay()
+                }
+            }) 
+        }, 100);
+      
+    }
+
+html:
+<div class="swiper-container del">
+    <div class="swiper-wrapper">
+    	<div class="swiper-slide" v-for="item in imgs">
+    		<img :src="item.imgurl"/>
+    	</div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination" ></div>
+</div>
+
+二级路由的使用：
+当我们在一个路由中嵌套另一个要切换的路由（必须有router-view）在当前页面展示
+
+router中的index.js(在nvzhuang路由下面有三个路由，都是在/nvzhuang/1,2,3)
+
+    {
+      path: '/nvzhuang/',
+      name: 'nvzhuang',
+      component: nvzhuang,
+      children:[
+        {
+          path:"/nvzhuang/tuijian",
+          component:require('../components/nvzhuang/tuijian/tuijian.vue').default,（组件位置）
+          name:"tuijian"
+        },
+        {
+          path:"/nvzhuang/xliang",
+          component:require('../components/nvzhuang/xliang/xliang.vue').default,
+          name:"xliang"
+        },
+        {
+          path:"/nvzhuang/jiage",
+          component:require('../components/nvzhuang/jiage/jiage.vue').default,
+          name:"jiage"
+        },
+        {
+          // 设置默认页面
+          path: "*",
+          redirect: "/nvzhuang/tuijian"
+        },
+      ]
+    }
+
+在nvzhuang.vue中使用二级路由：
+url: "/nvzhuang/tuijian",
+<router-link :to='item.url' class="main_nav_a">{{item.title}}</router-link>
+
+
+为了不重复多写router-link(v-for循环) ：
+vList: [
+        {
+          title: "推荐",
+          url: "/nvzhuang/tuijian",
+          flag: 0
+        },
+        {
+          title: "销量",
+          url: "/nvzhuang/xliang",
+          flag: 1
+        },
+        {
+          title: "价格",
+          url: "/nvzhuang/jiage",
+          flag: 2
+        }
+      ]
+    };
+  },
+
+如果有相同的头部和尾部的话可以（简单来说相同的封装）：
+
+// 引入头部导航
+import headerComponent from "../header/header.vue";
+// 引入底部
+import footerComponent from "../footer/footer.vue";
+
+components: {
+    headerComponent,
+    footerComponent
+  }
+
+
+vue-resource异步获取数据：
+
+1. /*引入资源请求插件*/
+import VueResource from 'vue-resource';
+
+/*使用VueResource插件*/
+Vue.use(VueResource);
+2.new Vue({
+  el: '#app',
+  router,
+  resource,//通过import引入，然后在这里调用
+  components: { App },
+  template: '<App/>'
+});
+3. 在要展示数据的vue中
+
+created(){
+	this.$http.get('数据路径').then((response) => {
+        console.log('服务器请求成功了')
+	//请求成功的代码
+	//数据就是response.body.你的数据名
+        console.log(response.body)
+      },(response) => {
+	  //请求失败的代码
+          console.log('服务器请求出错了')
+      });
+}
+
+
+route和router的区别：
+route:获取路径中得参数
+router:编程式导航  this.$router.push(…)
+
+
+生命周期钩子函数
+
+created 组件创建完毕
+
+mounted 组件渲染完毕 (通常需要增加延时setTimeOut)⭐swiper插件使用
+
+updated 数据更新时
+
+父子通信：
+
+1.父组件通过prop向下传递, 
+
+接收方,子组件中声明props props:['goodsId',goodsCount]
+
+传值方,父组件 
+
+导入子组件import inputnumber from '..'
+
+template中使用 <inputnumber :goodsId="" :goodsCount="" />>
+
+在components中注册
+
+2.子组件通过事件向上传递 
+
+接收方,父组件中写好v-on监听事件,并写好处理函数@countChange="getChangeCount" 
+
+把子组件的数量赋值给父组件数量getChangeCount(goods){}形参接收子组件传递的数据
+
+传值方,子组件使用$emit()触发事件,传递payLoad this.$emit('countChange',goods)
+
+payLoad{goodsId:”87”,goodsCount:2}
+
+token：登录状态：
+router.beforeEach((to, from, next) => {
+  // if (to.path == '/') {
+  //   sessionStorage.clear();
+  // }
+  if (to.path == '/login') {
+    sessionStorage.clear(); // 登录页面清楚缓存
+  }
+  // 是否是登录页面
+  if (!token && to.path != '/login') {
+    // 没有token,并且不是在login页面，有token可跳，没有就必须登录
+    if(sessionStorage.token){
+      next()
+    }else{
+      console.log('login')
+      next({ path: '/login' })
+    }    
+  } else {
+    next()
+  }
+})
+
+token设置为请求头：
+var token = sessionStorage.getItem('token')
+
+token设置在全局 就不用手动添加token了
+$.ajaxSetup({
+  beforeSend : function (XMLHttpRequest) {
+      XMLHttpRequest.setRequestHeader("token", token);
+  }
+})
+
+封装一个打印函数：
+function log() {
+    if (!$.fn.ajaxSubmit.debug) 
+        return;
+    var msg = '[jquery.form] ' + Array.prototype.join.call(arguments,'');
+    if (window.console && window.console.log) {
+        window.console.log(msg);
+    }
+    else if (window.opera && window.opera.postError) {
+        window.opera.postError(msg);
+    }
+}
+
+
+ajaxSubmit的使用：
+$('#button').click(function(){
+    var options = {
+      type:'post',           //post提交
+      url:'http://ask.tongzhuo100.com/server/****.php?=',   //要提交的后台地址 必须要和后台的键名称一样
+      dataType:"json",        //json格式（如果不写就会打印字符串，最好写上）
+      data:data,              //提交时的数据
+      clearForm: true,        //成功提交后，清除所有表单元素的值
+      resetForm: true,        //成功提交后，重置所有表单元素的值
+      cache:false,          
+      async:false,          //同步返回
+      success:function(data){
+        //服务器端返回处理逻辑
+      },
+      error:function(XmlHttpRequest,textStatus,errorThrown){
+        alert('操作失败');
+      }
+    };
+    $('#submit').ajaxSubmit(options);
+  })
+
+  ajaxForm的使用：
+  $("#tijiao").click(function () {
+      var params = {
+          username: $("#username").val(),
+          userpwd: $("#pwd").val()
+      }
+      var options = {
+          url: "http://www.52xiaofang.com/xiaofang/register.php",
+          data: params,
+          dataType: "json",
+          success: function (data) {
+              console.log(data)
+          }
+      }
+      $("#forms").ajaxForm(options);
+  })
+
+
+模拟vue数据的双向绑定:
+
+
+
+
+
+
+
+
+
+
